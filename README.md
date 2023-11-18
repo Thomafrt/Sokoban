@@ -11,7 +11,8 @@ Mise en place :
 - Faire la commande : mvn package
 - Faire la commande : java --add-opens java.base/java.lang=ALL-UNNAMED -server -Xms2048m -Xmx2048m -cp target/sokoban-1.0-SNAPSHOT-jar-with-dependencies.jar sokoban.SokobanMain
 - Ouvrir http://localhost:8888/test.html dans un navigateur
+- Lorsque l'on appuie sur play, le Sokoban est résolu graphiquement
 - Deux fichiers sont crées dans src/main/java/sokoban: 
 	- problem21.pddl (si on a choisi le niveau 21) qui contient le problème pddl généré pour le niveau
 	- solution.txt qui contient la chaine de caractère lue par l'agent pour la résolution graphique
-- Lorsque l'on appuie sur play, le Sokoban est résolu graphiquement
+
