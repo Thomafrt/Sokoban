@@ -1,6 +1,6 @@
 # Sokoban
-Résolution d'un Sokoban sous forme d'un problème PDDL à partir du projet disponible ici : https://github.com/fiorinoh/sokoban
-Le git ci-dessus propose différents niveaux du jeu Sokoban (dossier config). Ils sont convertis en problèmes PDDL avec ProblemBuilder.java, résolus grâce à pddl4j et au fichier domain.pddl, puis les actions sont générés par Agent.java pour l'affichage graphique dans une page html.
+Résolution d'un Sokoban sous forme d'un problème PDDL à partir du projet disponible ici : https://github.com/fiorinoh/sokoban.
+Ce git propose différents niveaux du jeu Sokoban (dossier config). Ils sont convertis en problèmes PDDL avec ProblemBuilder.java, résolus grâce à pddl4j et au fichier domain.pddl, puis les actions sont générés par Agent.java pour l'affichage graphique dans une page html.
 
 Mise en place :
 - Cloner le projet et installer pddl4j sur le git suivant : https://github.com/fiorinoh/sokoban
